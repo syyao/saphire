@@ -69,7 +69,7 @@
      position: absolute;
      bottom: 0;
      width: 100%;
-     height: 100%;
+     height: 40%;
      display: flex;
      flex-direction: row;
  }
@@ -88,8 +88,8 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     padding-left: 100px;
-     padding-right: 100px;
+     padding-left: 10%;
+     padding-right: 10%;
 
  }
 
@@ -111,7 +111,7 @@
  }
 
  .half-right p {
-     font-size: 24px;
+     font-size: 120%;
  }
 
  .bloc3 {
@@ -139,7 +139,7 @@
 
  .bloc3 .horizontal-blocks {
      display: flex;
-     gap: 20px;
+     gap: 50px;
      width: 100%;
      max-width: 1200px;
      justify-content: space-between;
@@ -152,133 +152,113 @@
      padding: 20px;
      text-align: center;
      border-radius: 10px;
+     /* border: 1px solid #000; */
+     /* corrigé */
  }
 
- .bloc3 .horizontal-blocks .block .block-image {
-     height: 500px;
-     width: 500px;
+ .bloc3 .horizontal-blocks .block .imageWithBorder {
+     width: 300px;
+     height: 300px;
+     border-radius: 50%;
+     /* cercle parfait */
+     overflow: hidden;
+     /* recadre l'image */
+     border: 5px solid rgba(194, 156, 60);
+     /* bordure visible */
+     margin: 0 auto 20px auto;
+     /* centrer l'image horizontalement */
  }
 
-
- .services {
-     display: flex;
-     justify-content: center;
-     align-items: flex-start;
-     gap: 50px;
-     padding: 60px 20px;
+ .bloc3 .horizontal-blocks .block .imageWithBorder img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     /* évite la déformation */
+     display: block;
+     /* supprime l'espace blanc sous l'image */
  }
 
- .service {
-     max-width: 300px;
+ .bloc3 .horizontal-blocks .block h1 {
+     color: #c29c3c;
+     font-weight: 100;
+     font-family: 'Alta', sans-serif;
      text-align: center;
  }
 
- .service img {
-     width: 220px;
-     height: 220px;
-     object-fit: cover;
-     border-radius: 50%;
-     border: 5px solid #d4af37;
-     /* doré */
+ .bloc3 .horizontal-blocks .block .divider {
+     width: 90%;
+     /* longueur de la barre */
+     height: 4px;
+     /* épaisseur de la barre */
+     background-color: #c29c3c;
+     /* couleur de la barre */
+     margin: 20px auto;
+     /* centrer horizontalement et espacer verticalement */
+     border-radius: 2px;
+     /* coins arrondis */
  }
 
- .service h3 {
-     margin-top: 20px;
-     font-size: 20px;
-     font-weight: normal;
-     color: #d4af37;
-     letter-spacing: 1px;
-     font-family: 'Alta', sans-serif;
- }
+ .bloc3 .horizontal-blocks .block p {
 
- .divider {
-     width: 80px;
-     height: 2px;
-     background: #d4af37;
-     margin: 10px auto 20px;
- }
-
- .service p {
-     font-size: 15px;
-     line-height: 1.6;
      font-family: 'Garet', sans-serif;
- }
-
- /* Responsive */
- @media(max-width: 900px) {
-     .services {
-         flex-direction: column;
-         align-items: center;
-     }
- }
-
-
- .section-lifestyle {
-     display: flex;
-     align-items: stretch;
-     justify-content: center;
-     /* max-width: 1200px; */
-     /* margin: 40px auto; */
-     background: #fff;
- }
-
- /* Partie gauche - Image */
- .section-lifestyle .image {
-     flex: 1;
-     background: url("images/9.png") center/cover no-repeat;
-     min-height: 500px;
-     position: relative;
- }
-
- /* Partie droite - Texte */
- .section-lifestyle .content {
-     flex: 1;
-     background: #2d3436;
-     /* gris foncé élégant */
-     color: #fff;
-     padding: 50px;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
- }
-
- .section-lifestyle h2 {
-     color: #d4af37;
-     /* doré */
-     font-size: 26px;
-     font-weight: bold;
-     line-height: 1.3;
-     margin-bottom: 20px;
-     text-transform: uppercase;
- }
-
- .section-lifestyle p {
+     text-align: start;
      font-size: 15px;
-     line-height: 1.7;
-     margin-bottom: 20px;
-     color: #eee;
  }
 
- .section-lifestyle .footer {
-     margin-top: auto;
-     font-size: 13px;
-     letter-spacing: 2px;
-     text-transform: uppercase;
-     text-align: right;
-     color: #ccc;
+ .noServices {
+     color: #c29c3c;
+     font-family: "Alta", sans-serif;
+     font-weight: lighter;
+     left: 0;
+     padding: 20px;
  }
 
- /* Responsive */
- @media(max-width: 900px) {
-     .section-lifestyle {
-         flex-direction: column;
-     }
+ .bloc4 {
+     background-position: left;
+     background: url('images/nine.png') no-repeat;
+     position: relative;
+     /* important pour que le bloc absolu se positionne par rapport à bloc4 */
+     height: 100vh;
+     /* hauteur de la section */
+     width: 100%;
 
-     .section-lifestyle .image {
-         min-height: 300px;
-     }
+ }
 
-     .section-lifestyle .content {
-         padding: 30px;
-     }
+ .bloc4 .descrptionBloc {
+     background-color: #212c28eb;
+     position: absolute;
+     top: 50%;
+     /* centre verticalement */
+     right: 0;
+     /* coller à droite */
+     transform: translateY(-50%);
+     /* ajuste le centrage vertical */
+     height: 80vh;
+     width: 40%;
+     padding: 40px;
+     /* padding plus raisonnable */
+     box-sizing: border-box;
+     color: white;
+     /* pour que le texte soit visible */
+ }
+
+ .bloc4 .descrptionBloc p {
+     color: white;
+     font-size: 20px;
+     font-family: "Garet", sans-serif;
+     font-weight: lighter;
+ }
+
+ .bloc4 .descrptionBloc h1 {
+     color: #c29c3c;
+     font-size: 50px;
+     font-family: "Alta", sans-serif;
+     font-weight: lighter;
+ }
+
+ .bloc4 .descrptionBloc h2 {
+     color: white;
+     font-family: "Alta", sans-serif;
+     font-weight: lighter;
+     text-align: end;
  }
