@@ -124,7 +124,7 @@
 
 
  .bloc3 .logo {
-     width: 150px;
+     width: 180px;
      margin-bottom: 20px;
  }
 
@@ -261,4 +261,113 @@
      font-family: "Alta", sans-serif;
      font-weight: lighter;
      text-align: end;
+ }
+
+ .bloc5 {
+     background: url('images/10.png') no-repeat center center fixed;
+     background-size: cover;
+     position: relative;
+ }
+
+ .bloc5 .descrptionBloc {
+     background-color: white;
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 60vh;
+     width: 30%;
+     margin-left: 10%;
+     padding-left: 40px;
+ }
+
+ .bloc5 .descrptionBloc h1 {
+     color: #c29c3c;
+     font-size: 50px;
+     font-family: "Alta", sans-serif;
+     font-weight: lighter;
+ }
+
+ .bloc5 .descrptionBloc p {
+
+     font-size: 20px;
+     font-family: "Garet", sans-serif;
+     font-weight: lighter;
+ }
+
+ .bloc5 .descrptionBloc h2 {
+     color: #c29c3c;
+     font-family: "Alta", sans-serif;
+     font-weight: lighter;
+     text-align: start;
+ }
+
+ .bloc6 {
+     background: url('images/11.png') no-repeat center center fixed;
+     background-size: cover;
+     position: relative;
+
+ }
+
+ .bloc6 .logo {
+     width: 180px;
+     margin-bottom: 20px;
+     background-color: white;
+ }
+
+ .bloc6 .descrptionBlocLeft {
+     position: absolute;
+     background-color: #212c28;
+     top: 0;
+     left: 0;
+     height: 90%;
+     width: 20%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     /* espace entre haut, milieu, bas */
+     align-items: center;
+     text-align: center;
+     padding: 40px 10px;
+     /* petit espace en haut/bas */
+ }
+
+ .bloc6 .descrptionBlocLeft h1 {
+
+     font-family: "Alta", sans-serif;
+     color: #c29c3c;
+     font-family: "Alta", sans-serif;
+     font-weight: lighter;
+     text-align: center;
+     font-size: 40px;
+     align-items: center;
+     flex: 1;
+     /* prend la place du centre */
+     display: flex;
+     justify-content: center;
+     /* centre horizontalement */
+     align-items: center;
+     /* centre verticalement */
+ }
+
+ .bloc6 .descrptionBlocLeft h2 {
+     font-family: "Alta", sans-serif;
+     color: white;
+     font-family: "Alta", sans-serif;
+     font-weight: lighter;
+     text-align: center;
+     margin-bottom: 20px;/
+ }
+
+ .bloc6 .descrptionBlocRight {
+     background-color: white;
+     right: 0;
+     padding: 40px;
+     position: absolute;
+     width: 30%;
+ }
+
+ .bloc6 .descrptionBlocRight p {
+     font-size: 20px;
+     word-spacing: 5px;
+     font-family: "Garet", sans-serif;
  }
