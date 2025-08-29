@@ -371,3 +371,197 @@
      word-spacing: 5px;
      font-family: "Garet", sans-serif;
  }
+
+ .bloc7 {
+     position: relative;
+     background: url('images/12.png') no-repeat center center fixed;
+     background-size: 70%;
+ }
+
+ .bloc7 .descriptionBlocLeft {
+     background-color: white;
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 90%;
+     width: 20%;
+
+     display: flex;
+     justify-content: center;
+     /* centre verticalement */
+     align-items: center;
+     /* centre horizontalement */
+     text-align: center;
+
+     padding: 40px 10px;
+ }
+
+ .bloc7 .descriptionBlocLeft h2 {
+     font-family: "Alta", sans-serif;
+     color: #c29c3c;
+     font-weight: lighter;
+     font-size: 40px;
+ }
+
+ .bloc7 .blocBottom {
+     background-color: #212c28e7;
+     height: 30%;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     position: absolute;
+
+     display: flex;
+     /* active flexbox */
+     justify-content: center;
+     /* centre horizontalement */
+     align-items: center;
+     /* centre verticalement */
+
+     padding-left: 20%;
+     padding-right: 20%;
+
+     color: white;
+ }
+
+ .bloc7 .blocBottom p {
+     font-size: large;
+     font-family: "Garet", sans-serif;
+ }
+
+
+ .bloc7 .logo {
+     width: 180px;
+     margin-bottom: 20px;
+     background-color: #212c28;
+ }
+
+
+ .bloc7 {
+     position: relative;
+     background: url('images/14.png') no-repeat center center fixed;
+     background-size: 50% 100%;
+ }
+
+ .bloc7 .descriptionBlocLeft {
+     background: none;
+     background-color: white;
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 90%;
+     width: 20%;
+
+     display: flex;
+     justify-content: center;
+     /* centre verticalement */
+     align-items: center;
+     /* centre horizontalement */
+     text-align: center;
+
+     padding: 40px 10px;
+ }
+
+ .bloc7 .descriptionBlocLeft h2 {
+     font-family: "Alta", sans-serif;
+     color: #c29c3c;
+     font-weight: lighter;
+     font-size: 40px;
+ }
+
+ .bloc7 .blocBottom {
+     background-color: #212c28e7;
+     height: 30%;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     position: absolute;
+
+     display: flex;
+     /* active flexbox */
+     justify-content: center;
+     /* centre horizontalement */
+     align-items: center;
+     /* centre verticalement */
+
+     padding-left: 20%;
+     padding-right: 20%;
+
+     color: white;
+ }
+
+ .bloc7 .blocBottom p {
+     font-size: large;
+     font-family: "Garet", sans-serif;
+ }
+
+ .bloc8 {
+     background: url('images/14.png') no-repeat center center fixed;
+     background-size: 50% 100%;
+ }
+
+ .bloc8 .logo {
+     width: 180px;
+     margin-bottom: 20px;
+     background-color: #212c28;
+ }
+
+
+
+ .bloc8 .descriptionBlocLeft {
+     background-color: white;
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 90%;
+     width: 20%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* centre verticalement */
+     align-items: center;
+     /* centre horizontalement */
+
+
+     padding: 40px;
+ }
+
+ .bloc8 .descriptionBlocLeft h2 {
+     font-family: "Alta", sans-serif;
+     color: #c29c3c;
+     font-size: 70px;
+     font-weight: 100;
+ }
+
+ .bloc8 .descriptionBlocLeft p {
+     font-family: "Garet", sans-serif;
+
+     font-size: 15px;
+     text-align: left;
+
+ }
+
+ .bloc8 .descriptionBlocRight {
+     background-color: white;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 90%;
+     width: 20%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* centre verticalement */
+     align-items: center;
+     /* centre horizontalement */
+
+
+     padding: 40px;
+ }
+
+ .bloc8 .descriptionBlocRight h1 {
+     font-family: "Alta", sans-serif;
+     color: #c29c3c;
+     font-size: 25px;
+     font-weight: 100;
+ }
